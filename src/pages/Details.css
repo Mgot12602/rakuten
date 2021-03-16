@@ -1,0 +1,17 @@
+.details{
+ text-align: center;
+  width:100%;
+    color:white;
+  height:100%;
+}
+
+img{
+    display:block;
+    max-height:90%;
+    max-width:90%;
+    margin:auto;
+}
+
+h1{
+    font-size: 30px;
+}

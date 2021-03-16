@@ -1,0 +1,110 @@
+
+
+.contenedor{
+width:90%;
+margin:auto;
+}
+
+.contenedor-titulo{
+display:flex;
+justify-content:space-between;
+align-items:end;
+color:white;
+font-size: 22px;
+
+}
+.peliculas-recomendadas{
+
+    margin-bottom:70px;
+
+}
+.peliculas-recomendadas .contenedor-principal{
+    display:flex;
+    align-items: center;
+    position:relative;
+    width:100%;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha{
+    position:absolute;
+    border:none;
+    background: rgba(0,0,0,0.3);
+    font-size:40px;
+    height:50%;
+    top:calc(50% - 25%);
+    line-height: 40px;
+    color:white;
+    z-index:500;
+    transition: .2s ease all;
+   
+    
+}
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover{
+background-color: rgba(0,0,0,.9);
+}
+ /* .peliculas-recomendadas .contenedor-principal .flecha-izquierda{
+    position:absolute;
+    left:1px;
+};  */
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha{
+    position:absolute;
+    right:0px;
+};
+
+.peliculas-recomendadas .contenedor-carousel{
+width:100%;
+padding:20px 0 20px 0;
+/* overflow:scroll; */
+scroll-behavior:smooth;
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-carousel .carousel{
+display:flex;
+flex-wrap: nowrap;
+overflow:hidden;
+scroll-behavior:smooth;
+}
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula{
+    min-width:20%;
+    transition: .3s ease all;
+    box-shadow:5px 5px 10px rgba(0,0,0,.3);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img{
+width:100%;
+vertical-align: top;
+}
+
+
+/* I added a media query for small screens so it transform to grid
+and we remove the arrows */
+@media screen and (max-width:800px){
+
+   
+  .peliculas-recomendadas .contenedor-carousel{
+      overflow:visible;
+  }  
+.peliculas-recomendadas .contenedor-carousel .carousel{
+
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+}
+.peliculas-recomendadas .flecha-derecha, .peliculas-recomendadas .flecha-izquierda{
+    display:none;
+}
+
+.contenedor-titulo {
+    font-size: 16px;
+
+}
+}
+
+
