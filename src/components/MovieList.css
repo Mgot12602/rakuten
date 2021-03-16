@@ -57,7 +57,6 @@ background-color: rgba(0,0,0,.9);
 .peliculas-recomendadas .contenedor-carousel{
 width:100%;
 padding:20px 0 20px 0;
-/* overflow:scroll; */
 scroll-behavior:smooth;
 
 }
@@ -74,6 +73,11 @@ scroll-behavior:smooth;
     min-width:20%;
     transition: .3s ease all;
     box-shadow:5px 5px 10px rgba(0,0,0,.3);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img:hover{
+    outline: 3px solid yellow;
+    outline-offset: -3px;
 }
 
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula img{
