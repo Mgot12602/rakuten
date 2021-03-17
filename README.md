@@ -4,7 +4,7 @@
 <p>This app is made without using any boilerplate or thirdparty library. It is used with pure css, React and Webpack as a development server.</p>
 <p>Node modules are not included.</p>
 <p>To install all dependencies: <b>npm install</b>
-<p>To run use: npm start</p>
+<p>To run use: <b>npm start</b></p>
 
 <p>Code lines are commented.</p>
 <p>Thank you!</p>
