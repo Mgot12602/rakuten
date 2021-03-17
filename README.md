@@ -1,4 +1,4 @@
-# rakuten
+# Rakuten Test
 
 <p>This is my solution for the Rakuten test.</p>
 <p>This app is made without using any boilerplate or thirdparty library. It is used with pure css, React and Webpack as a development server.</p>
