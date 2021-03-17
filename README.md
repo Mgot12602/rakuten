@@ -17,3 +17,4 @@ Gotchas:
 -Using cypress for testing the whole app.
 -Use express as development server and webpack as a middleware.
 -Add the Rakuten fav-icon.
+-Improve the styling of the arrow boxes so it looks more neat.
