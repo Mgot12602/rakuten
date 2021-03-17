@@ -9,7 +9,7 @@
 <p>Code lines are commented.</p>
 <p>Thank you!</p>
 <br>
-<h3>Gotchas:<h3>
+<h3>Gotchas:</h3>
 <p>-Adding a Loading state spinner and style it instead of "Loading.." plain text.</p>
 <p>-Error handling when we can't retrieve the desired information to display the movies because api is not available with hidding the affected component.</p>
 <p>-Error handling when we can't connect to the api server with a properly styled message on the screen.</p>
